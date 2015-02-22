@@ -1,8 +1,7 @@
 ### Course Project Code Book
 
-## Data Source: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
-
-## Description: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+Data Source: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+Description: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 Variable in the y_test and y_train data is assigned Activity.
 Variable in the subject_test and subject_train data is assigned Subject.
@@ -87,7 +86,6 @@ This results in 66 out of the 561 variables.
 65. fBodyBodyGyroJerkMag-mean()
 66. fBodyBodyGyroJerkMag-std()
 
-
-Make a tidy data set, for each of the 30 respondents, we calculate the average value for all 66 measures across each of the 6 activities.
+Make a tidy data set, for each of the 30 respondents. We then calculate the average value for all 66 measures across each of the 6 activities.
 The tidy data set includes a total of 180 observations (6 for each of the 30 respondents).
 There are 68 columns in the tidy data set that include two for Subject, Activity, plus the 66 measure variables.
